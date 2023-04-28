@@ -1,0 +1,44 @@
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .produtos article {
+    width: 350px;
+    margin-bottom: 20px;
+    border: 1px solid #080808;
+    text-align: center;
+  }
+  
+  .produtos article img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .produtos article h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  
+  .produtos article p {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  .produtos article .preco {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .produtos article button {
+    display: block;
+    margin: 10px auto 0;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    border: none;
+    cursor: pointer;
+  }
+  
